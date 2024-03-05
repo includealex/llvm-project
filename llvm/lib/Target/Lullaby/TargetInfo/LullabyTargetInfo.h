@@ -1,0 +1,12 @@
+#ifndef LLVM_LIB_TARGET_LULLABY_TARGETINFO_LULLABYTARGETINFO_H
+#define LLVM_LIB_TARGET_LULLABY_TARGETINFO_LULLABYTARGETINFO_H
+
+namespace llvm {
+
+class Target;
+
+Target &getTheLullabyTarget();
+
+} // end namespace llvm
+
+#endif //LLVM_LIB_TARGET_LULLABY_TARGETINFO_LULLABYTARGETINFO_H
